@@ -1,0 +1,56 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #FFA5A5;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 582px;
+    height: 573px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+    margin-top: 225px;
+    margin-left: 429px;
+}
+
+.form__h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.form__h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.form__h2 a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: blue;
+}
+
+.form__name{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    width: 394px;
+    height: 44px;
+    margin-left: 85px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding-left: 11px;
+    align-items:center ;
+}
