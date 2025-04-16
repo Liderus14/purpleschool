@@ -54,3 +54,73 @@ body{
     padding-left: 11px;
     align-items:center ;
 }
+
+.form__block{
+    margin-left: 85px;
+    margin-top: 21px;
+}
+
+.name{
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color:#F5F5F5;
+    padding: 5px;
+}
+.surname{
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color:#F5F5F5;
+    padding: 5px;
+}
+
+.email{
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    width: 394px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 22px;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 5px;
+}
+
+
+.form__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-family: "Open Sans", sans-serif;
+    width: 394px;
+    height: 44px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #089FE0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+
+.check{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: #666666;
+}
+
+.check a{
+    color: #089FE0;
+}
