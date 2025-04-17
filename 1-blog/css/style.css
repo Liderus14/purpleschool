@@ -51,12 +51,7 @@ body{
 	text-decoration: none;
 }
 
-.search__btn{
-	display: flex;
-	align-items: center;
-	background: url(/1-blog/img/search.png);
-	background-repeat: no-repeat;
-}
+
 .search input{
 	width: 224px;
 	height: 40px;
@@ -64,4 +59,94 @@ body{
 	border: none;
 	border-radius: 100px;
 	padding: 10px;
+}
+
+.main__block{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main__h1{
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+	font-size:14px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.main__h2{
+	width: 525px;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	color: #fff;	
+	margin-top: 14px;
+	text-align: center;
+}
+
+.main__block-contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 55px;
+	gap: 16px;
+}
+
+.block__contact-title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.block__contact-title h1{
+	font-family: "Roboto", sans-serif;
+	font-size:16px ;
+	color: #fff;
+	margin-top: 10px;
+}
+.block__contact-title p{
+	font-family: "Roboto", sans-serif;
+	font-size:14px ;
+	color: #fff;
+	margin-top: -10px;
+}
+
+.blog__img{
+	display: flex;
+	justify-content: center;
+}
+
+.blog__img img{
+	width: 896px;
+	height: 594px;
+	margin-top: 28px;
+	border-radius: 5px;
+}
+
+.box__title{
+	max-width: 708px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 69px;
+}
+
+.box__title p{
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	color: #fff;
+	line-height: 30px;
+}
+
+.footer p{
+	font-family: "Roboto", sans-serif;
+	margin-top: 103px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 77px;
 }
